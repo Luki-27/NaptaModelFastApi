@@ -20,6 +20,6 @@ async def create_upload_file(file: UploadFile= File(...)):
 
 @app.get("/")
 def returnPredict():
-     return {"name":"hi"}#run()[0]}
+     return {"name":run()[0]}
 
 
